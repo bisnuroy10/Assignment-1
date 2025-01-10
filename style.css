@@ -183,3 +183,87 @@
   display : flex;
   justify-content: space-between;
 }
+.quote{
+  margin-top : 20px;
+  background-image: url(/assets/quote-bg.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.qp{
+  opacity : 70%;
+}
+.cpp{
+  opacity : 75%;
+}
+.dr{
+  opacity : 80%;
+}
+.title_opinion{
+  font-weight : bold;
+  font-size : 35px;
+}
+.table_container{
+  height : 300px;
+  width : 100%;
+  background-color: aquamarine;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+table{
+  border-collapse: collapse;
+  height: 260px;
+  width : 1400px;
+  
+}
+th,td{
+  border : 1px solid black;
+}
+.sellect1{
+  height : 100px;
+  width : 200px;
+}
+.news{
+  margin-top : 30px;
+}
+.rnbtn{
+  color : white;
+  padding : 10px 20px;
+  background-color : #006A50;
+  font-size : 20px;
+  border-radius : 5px;
+  border : none;
+  margin-top : 20px;
+}
+.rnbtn:hover{
+  background-color :darksalmon;
+  color : black;
+  cursor: pointer;
+}
+
+.imggo{
+  border-radius: 15px;
+}
+.news_card1{
+  display : flex;
+  align-items : center;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+.right_news{
+  margin-left : 50px;
+}
+.news_card1{
+
+}
+.rnpara{
+  margin-top: 10px;
+}
+.news_card2{
+  display : flex;
+  align-items : center;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin-top : 20px;
+}
