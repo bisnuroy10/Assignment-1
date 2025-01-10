@@ -26,6 +26,7 @@
 .btnsi:hover{
   background-color :darksalmon;
   color : black;
+  cursor: pointer;
 }
 .nav{
   display : flex;
@@ -65,6 +66,7 @@
 .btn_header:hover{
   background-color :darksalmon;
   color : black;
+  cursor: pointer;
 }
 .header{
   display : flex;
@@ -77,7 +79,7 @@
 }
 /* Style for main section */
 .mdivt{
-  font-size : 40px;
+  font-size : 35px;
   font-weight : bold;
 }
 .card1{
@@ -121,6 +123,63 @@
   margin-top :15px;
 }
 .mdiv{
-  margin-top : 20px;
+  margin-top : 10px;
   margin-bottom : 50px;
+}
+.vision_t{
+  font-size : 35px;
+  font-weight : bold;
+  margin-top : 40px;
+}
+.btn_vision{
+  color : white;
+  padding : 10px 20px;
+  background-color : #006A50;
+  font-size : 20px;
+  border-radius : 5px;
+  border : none;
+  margin-top : 20px;
+}
+.btn_vision:hover{
+  background-color :cornflowerblue;
+  color : black;
+  cursor: pointer;
+}
+.tvision{
+  font-size : 20px;
+  font-weight : bold;
+}
+.card2_vission{
+  height : 250px;
+  width : 400px;
+  background-color: aquamarine;
+  padding : 50px 30px 30px 20px;
+  border-radius: 10px;
+}
+.card2_vission:hover{
+  background-color: burlywood;
+}
+.card3_vission{
+  height : 250px;
+  width : 400px;
+  background-color :salmon;
+  padding : 50px 30px 30px 20px;
+  border-radius: 10px;
+}
+.card3_vission:hover{
+  background-color :darkgray;
+}
+.card4_vission{
+  height : 250px;
+  width : 400px;
+  background-color :violet;
+  padding : 50px 30px 30px 20px;
+  border-radius: 10px;
+}
+.card4_vission:hover{
+  background-color: burlywood;
+}
+.container_vision{
+  display : flex;
+  justify-content: space-between;
 }
