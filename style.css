@@ -1,0 +1,77 @@
+*{
+  
+  padding : 2px;
+  margin : 5px;
+}
+
+body{
+  font-family : Fira-sens
+}
+/* Navber style */
+.logo{
+  font-size : 32px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  color : #0E0E0E;
+  font-weight : 800;
+
+}
+.btnsi{
+  color : #006A50;
+  padding : 10px 20px;
+  border : 1px solid #006A50;
+  font-size : 20px;
+  border-radius : 5px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.btnsi:hover{
+  background-color :darksalmon;
+  color : black;
+}
+.nav{
+  display : flex;
+  justify-content : space-between;
+}
+/* Header style */
+.header {
+  height : 90vh;
+  width : 100wh;
+  background-color : #C6E4D6;
+  border-radius : 10px;
+}
+.ht{
+  font-size : 24px;
+  color : #0E0E0E;
+  opacity : 50%;
+  margin-bottom : 10px;
+}
+.mth{
+  font-size : 56px;
+  color : #0E0E0E;
+  margin-bottom : 10px;
+}
+.btn_header{
+  font-size : 18px;
+  font-weight : 700;
+  color : white;
+  background-color: #006A50;
+  padding : 12px 24px;
+  border-radius : 6px;
+  border : none;
+  margin-bottom : 10px;
+  margin-top : 10px;
+}
+
+/* Button Hover Effect */
+.btn_header:hover{
+  background-color :darksalmon;
+  color : black;
+}
+.header{
+  display : flex;
+  align-items : center ;
+  justify-content: space-around;
+}
+.hright{
+  height : 400px;
+  width : 400px;
+}
