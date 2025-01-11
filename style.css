@@ -204,7 +204,7 @@
 }
 .quote{
   margin-top : 20px;
-  background-image: url(/assets/quote-bg.png);
+  background-image: url(./assets/quote-bg.png);
   background-position: top left;
   background-repeat: no-repeat;
 }
