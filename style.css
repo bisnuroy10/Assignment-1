@@ -267,9 +267,6 @@ th,td{
   border-radius: 20px;
   margin-top : 20px;
 }
-.donate_btn_container{
- 
-}
 .donate_title{
   font-size : 35px;
   font-weight : bold;
@@ -277,6 +274,8 @@ th,td{
 }
 .donate_para{
   text-align: center;
+  font-size : 20px;
+  opacity : 70%;
 }
 .donate_btn1{
   padding : 30px 40px 30px 40px;
@@ -352,4 +351,56 @@ th,td{
 }
 .bdcontainer{
   text-align: center;
+}
+/* style of last section */
+.t_of_last{
+  font-size :35px;
+  font-weight : bold;
+  text-align : center;
+
+
+}
+.para_of_last{
+  font-size : 20px;
+  opacity : 70%;
+  text-align : center;
+}
+.input{
+  height: 50px;
+  width : 750px;
+  border-radius : 5px;
+  border : 0.6px solid gray;
+}
+.subscribe{
+  padding : 17px 20px 17px 20px;
+  background-color: #006A50;
+  color : white;
+  font-size : 20px;
+  font-weight : 520;
+  border : none;
+  border-radius: 5px;
+}
+.container_of_input_button{
+  display : flex;
+  align-items: center;
+  justify-content : center;
+  margin-top : 10px;
+}
+.subscribe:hover{
+  background-color :darksalmon;
+  color : black;
+  cursor: pointer;
+}
+.last{
+  text-align: center;
+  font-size : 20px;
+  opacity : 70%;
+}
+.last_section{
+  margin-top : 20px;
+  height : 300px;
+  width : 100%;
+  background-color: #C6E4D6;
+  padding-top : 70px;
+  border-radius: 10px;
 }
